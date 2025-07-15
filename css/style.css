@@ -1,0 +1,76 @@
+img {
+  /* float: right; */
+  float: left;
+  width: 500px;
+  height: 480px;
+  border: 2px solid red;
+}
+.container {
+  border: 2px solid black;
+  display: flow-root;
+}
+
+.card-one {
+  background-color: lightblue;
+  border: 2px solid black;
+  /* clear: left; */
+  clear: right;
+}
+.card-two {
+  background-color: lightgreen;
+  border: 2px solid black;
+  clear: right;
+  /* clear: left; */
+}
+.card-three {
+  background-color: lightcoral;
+  border: 2px solid black;
+  clear: right;
+  /* clear: left; */
+}
+
+/* ----------------------Flexbox css----------------------*/
+
+.container-flex {
+  border: 10px solid black;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  /* justify-content: space-around; */
+  /* justify-content: start; */
+  /* justify-content: flex-end; */
+  /* justify-content: space-evenly; */
+  /* align-items: flex-end; */
+  /* align-items: center; */
+  /* align-items: baseline; */
+  flex-wrap: wrap;
+  /* align-items: flex-end; */
+  /* align-content: center; */
+  /* align-content: space-between; */
+  align-content: flex-start;
+  column-gap: 10px;
+}
+
+.flex-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 8px;
+  font-size: 30px;
+}
+
+.item-item1 {
+  background-color: rgb(46, 176, 219);
+}
+.item-item2 {
+  background-color: rgb(45, 190, 45);
+}
+.item-item3 {
+  background-color: rgb(201, 42, 42);
+}
+.item-item4 {
+  background-color: rgb(121, 121, 6);
+}
