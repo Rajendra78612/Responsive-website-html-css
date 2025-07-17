@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position</title>
+    <style>
+
+        body{
+            border: 2px solid black;
+            height: 700px; /* To demonstrate scrolling */
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+        }
+      
+        .relative{
+            background-color: lightcoral;
+        }
+        .absolute{
+            background-color: rgb(19, 149, 192);
+        }
+        .fixed{
+            background-color: lightgreen;
+        }
+        .sticky{
+            background-color: rgb(165, 165, 19);
+        }
+    </style>
+  </head>
+  <body>
+  
+  <div class="box relative">Relative</div>
+
+  <div class="absolute-wrapper">
+    <div class="box absolute">Absolute</div>
+  </div>
+
+  <div class="box fixed">Fixed</div>
+
+  <div class="box sticky">Sticky</div>
+    </div>
+  </body>
+</html>
